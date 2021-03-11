@@ -1,9 +1,9 @@
 name: 'Deploy WordPress'
 description: 'Deploy WordPress code to a server'
-author: 'rtCamp'
+author: 'Dharmin Shah'
 runs:
   using: 'docker'
-  image: 'docker://rtcamp/action-deploy-wordpress:v2.1.1'
+  image: 'docker://dharmin/action-deploy-wordpress:v6.9'
 branding:
   icon: 'upload-cloud'
   color: 'yellow'
